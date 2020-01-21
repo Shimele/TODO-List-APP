@@ -9,16 +9,14 @@ body{
     margin-left: 10%;
     width: 80%;
     background-color: white;
-    border: 1px solid green;
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .first{
     position: fixed;
+    top: 4%;
     right: 10%;
-    top: 5%;
-    border: 1px solid red;
-    padding: 0;
+    padding: 5px;
     text-align:center;
 }
 .first h3{
@@ -36,7 +34,6 @@ hr{
 }
 .content{
     padding-top: 20px;
-    border: 1px solid blue;
     font-family: 'Raleway', sans-serif;
 }
 .content h4{
@@ -50,11 +47,9 @@ hr{
 .btn{
     color: rgb(94, 255, 0);
     background-color: #ffffff;
-    border: 1px solid #ffed4b;
 }
 .second{
-    border: 1px solid yellowgreen;
-    padding: 0;
+    padding: 3px;
     background-color: #69520d;
 }
 .second h3{
@@ -63,10 +58,9 @@ hr{
 }
 
 .task{
-    border: 1px solid hotpink;
+
 }
 .task h4{
-    border: 1px solid darkorchid;
     text-align: center;
     margin: 3px;
     border-radius: 12px;
