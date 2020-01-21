@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Raleway&display=swap');
+body{
+    margin: 0;
+    padding:0;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+.container{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.first{
+    position: fixed;
+    right: 10%;
+    top: 5%;
+    border: 1px solid red;
+    padding: 0;
+    text-align:center;
+}
+.first h3{
+    font-family: 'Lobster', cursive;
+}
+.first p{
+    color: #69520d;
+    font-family: 'Lobster', cursive;
+}
+hr{
+    color: gray;
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+.content{
+    padding-top: 20px;
+    border: 1px solid blue;
+    font-family: 'Raleway', sans-serif;
+}
+.content h4{
+    padding: 5px;
+}
+.content h4:hover{
+    cursor: pointer;
+    color: #69520d;
+    font-weight: bold;
+}
+.btn{
+    color: rgb(94, 255, 0);
+    background-color: #ffffff;
+    border: 1px solid #ffed4b;
+}
+.second{
+    border: 1px solid yellowgreen;
+    padding: 0;
+    background-color: #69520d;
+}
+.second h3{
+    margin-left: 40%;
+    font-family: 'Lobster', cursive;
+}
+
+.task{
+    border: 1px solid hotpink;
+}
+.task h4{
+    border: 1px solid darkorchid;
+    text-align: center;
+    margin: 3px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+}
+#items{
+    padding:5px 0 5px 5px;
+    color: #ffffff;
+}
+    
+#items a{
+    color: #fdcd3b;
+}
+#items a:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
