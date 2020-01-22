@@ -4,7 +4,7 @@ body{
     padding:0;
     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
-.container{
+.container-fluid{
     margin-top: 5%;
     margin-left: 10%;
     width: 80%;
@@ -13,10 +13,9 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .first{
-    position: fixed;
-    top: 4%;
-    right: 10%;
-    padding: 5px;
+    padding: ;
+    margin-left: 8%;
+    margin-top: 2%;
     text-align:center;
 }
 .first h3{
@@ -28,8 +27,8 @@ body{
 }
 hr{
     color: gray;
-    width: 100%;
-    margin: 0;
+    width: 87%;
+    margin: 0 0 0 12px;
     padding:0;
 }
 .content{
@@ -44,9 +43,13 @@ hr{
     color: #69520d;
     font-weight: bold;
 }
-.btn{
-    color: rgb(94, 255, 0);
-    background-color: #ffffff;
+.first .btn{
+    color: #fdcd3b;
+    background-color: #69520d;
+}
+.first .btn:hover{
+    cursor: zoom-in;
+    color: #ffffff;
 }
 .second{
     padding: 3px;
@@ -55,6 +58,7 @@ hr{
 .second h3{
     margin-left: 40%;
     font-family: 'Lobster', cursive;
+    color: #fdcd3b;
 }
 
 .task{
@@ -79,4 +83,19 @@ hr{
 #items a:hover{
     cursor: pointer;
     color: #ffffff;
+}
+.modal-content{
+    background-color: #8a6d16;
+}
+input{
+    margin-bottom: 5px;
+}
+.modal-content h5{
+    font-family: 'Lobster', cursive;
+    color: #ffed4b;
+}
+.modal-footer .btn{
+    background-color: #ffffff;
+    border-color: #69520d;
+    color: #fdcd3b;
 }

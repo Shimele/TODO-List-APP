@@ -13,9 +13,9 @@
     <title>ToDo App</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 first">
+            <div class="col-3 fixed-top first">
                 <h3>Priority Level</h3>
                 <p>put some order in your head</p>
                 <hr>
@@ -25,9 +25,9 @@
                     <h4>Important</h4>
                     <h4>Optional</h4>
                 </div>
-                <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#exampleModal"> + Add Task</button>
+                <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal"> + Add Task</button>
             </div>
-            <div class="col-lg-9 col-md-6 col-sm-12 second">
+            <div class="col-9 offset-3 second">
                 <h3>Tasks</h3>
                 <hr>
                 <div class="task">
@@ -88,8 +88,7 @@
             </select>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn">Keep</button>
             </div>
           </div>
         </div>
